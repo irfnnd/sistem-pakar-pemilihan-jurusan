@@ -7,6 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jurusan extends Model
 {
-    /** @use HasFactory<\Database\Factories\JurusanFactory> */
     use HasFactory;
+
+    protected $table = 'jurusan';
+
+    protected $fillable = [
+        'nama_jurusan',
+        'kode_kecerdasan',
+        'deskripsi'
+    ];
+
+    public function kecerdasan()
+    {
+        return $this->belongsTo(Kecerdasan::class, 'kode_kecerdasan', 'kode');
+    }
 }
