@@ -22,10 +22,10 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="row">
             <!-- Sidebar -->
-            <nav class="col-md-3 col-lg-2 d-md-block sidebar">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar position-fixed">
                 <div class="position-sticky pt-3">
                     <div class="text-center mb-4">
                         <h5 class="text-white">Sistem Pakar</h5>

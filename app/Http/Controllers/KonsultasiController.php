@@ -31,7 +31,9 @@ class KonsultasiController extends Controller
     public function form()
     {
         $ciriCiri = CiriCiri::all();
-        return view('konsultasi.form', compact('ciriCiri'));
+        $jurusan = Jurusan::all();
+
+        return view('konsultasi.form', compact('ciriCiri', 'jurusan'));
     }
 
     public function proses(Request $request)
@@ -62,6 +64,7 @@ class KonsultasiController extends Controller
             'hasil' => $hasil,
             'metode' => $metode
         ]);
+
 
         return view('konsultasi.hasil', compact('hasil', 'konsultasi'));
     }

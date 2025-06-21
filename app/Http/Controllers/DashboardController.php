@@ -32,7 +32,7 @@ class DashboardController extends Controller
             ->limit(5)
             ->get();
 
-        return view('dashboard.index', compact(
+        return view('dashboard', compact(
             'totalKonsultasi',
             'totalKecerdasan',
             'totalJurusan',
