@@ -14,7 +14,7 @@
 
     <div class="flex min-h-screen">
         <!-- Sidebar -->
-        <aside class="w-64 bg-indigo-600 text-white p-5 fixed top-0 left-0 h-screen transition disabled:opacity-50">
+        <aside class="w-64 bg-indigo-600 text-white p-4 fixed top-0 left-0 h-screen transition disabled:opacity-50">
             <div class="mb-6 text-center">
                 <h5 class="text-xl font-bold">Sistem Pakar</h5>
                 <p class="text-sm text-purple-200">Penentuan Jurusan</p>
