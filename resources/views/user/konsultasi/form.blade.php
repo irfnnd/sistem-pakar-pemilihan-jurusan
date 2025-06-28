@@ -1,7 +1,7 @@
 @extends('layouts.user')
 
 @section('content')
-<div class="flex justify-between items-center border-b pb-2 mb-6">
+<div class="flex justify-between items-center border-b p-4 mb-6 max-w-7xl mx-auto">
     <h1 class="text-2xl font-semibold">Form Konsultasi</h1>
     <a href="{{ route('konsultasi.index') }}"
        class="inline-flex items-center px-4 py-2 border border-gray-300 rounded hover:bg-gray-100 text-gray-700">
@@ -9,7 +9,7 @@
     </a>
 </div>
 
-<form action="{{ route('konsultasi.proses') }}" method="POST" id="konsultasiForm">
+<form action="{{ route('konsultasi.proses') }}" method="POST" id="konsultasiForm" class="flex items-center justify-center p-4 m-6 max-w-7xl mx-auto" style="min-height: 90vh">
     @csrf
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
