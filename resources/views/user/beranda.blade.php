@@ -20,37 +20,37 @@
                             menggunakan metode Forward dan Backward Chaining untuk analisis minat dan bakat yang akurat.
                         </p>
 
-                        <ul class="mb-10 flex flex-wrap items-center justify-center gap-4 md:gap-5">
+                        <ul class=" flex flex-wrap items-center justify-center gap-4 md:gap-5">
                             <li>
-                                <a href="#konsultasi"
+                                <a href="{{ route('konsultasi.index') }}"
                                     class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px]"
                                     role="button">Mulai Konsultasi</a>
                             </li>
 
                             <!-- <li>
-                        <a
-                          href="javascript:void(0)"
-                          class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-primary-color hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
-                          role="button"
-                          ><i class="lni lni-play text-lg/none"></i>Lihat</a
-                        >
-                      </li> -->
+                            <a
+                              href="javascript:void(0)"
+                              class="video-popup flex items-center gap-4 rounded-md bg-primary-color/[0.15] px-5 py-3 text-base font-medium text-primary-color hover:bg-primary-color hover:text-primary md:px-7 md:py-[14px]"
+                              role="button"
+                              ><i class="lni lni-play text-lg/none"></i>Lihat</a
+                            >
+                          </li> -->
                         </ul>
                     </div>
                 </div>
                 <div class="w-full px-5">
                     <div class="scroll-revealed relative z-10 mx-auto max-w-[845px]">
                         <figure class="mt-16">
-                            <img src="./assets/img/hero.png" alt="Sistem Pakar Pemilihan Jurusan"
+                            <img src="assets/img/hero.png" alt="Sistem Pakar Pemilihan Jurusan"
                                 class="mx-auto max-w-full rounded-t-xl rounded-tr-xl" />
                         </figure>
 
                         <div class="absolute -left-9 bottom-0 z-[-1]">
-                            <img src="./assets/img/dots.svg" alt class="w-[120px] opacity-75" />
+                            <img src="assets/img/dots.svg" alt class="w-[120px] opacity-75" />
                         </div>
 
                         <div class="absolute -right-6 -top-6 z-[-1]">
-                            <img src="./assets/img/dots.svg" alt class="w-[120px] opacity-75" />
+                            <img src="assets/img/dots.svg" alt class="w-[120px] opacity-75" />
                         </div>
                     </div>
                 </div>
@@ -61,10 +61,10 @@
     <!-- About section -->
     <section id="about" class="section-area">
         <div class="container">
-            <div class="grid grid-cols-1 gap-14 lg:grid-cols-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="w-full">
-                    <figure class="scroll-revealed max-w-[480px] mx-auto">
-                        <img src="./assets/img/about-img.jpg" alt="Tentang Sistem Pakar EduChoice" class="rounded-xl" />
+                    <figure class="scroll-revealed mx-auto max-w-[500px]">
+                        <img src="assets/img/about.jpg" width="350" alt="Tentang Sistem Pakar EduChoice" class="rounded-xl" />
                     </figure>
                 </div>
 
